@@ -1,7 +1,7 @@
 var playlist = { Tswizzle: "Blank Space", Pentatonix: 'Say Something'}
 
-function updatePlaylist(playlist, artist, song) {
-  playlist[artist] = song
+function updatePlaylist(playlist, artistName, song) {
+  playlist[artistName] = song
   return playlist
 }
 
